@@ -2,6 +2,10 @@
 import math
 from typing import Dict, List, Optional, Tuple, Union
 
+## by tlwu
+import matplotlib
+matplotlib.use('Agg')  # Use Agg backend for thread safety
+
 import cv2
 import mmcv
 import numpy as np
